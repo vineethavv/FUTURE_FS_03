@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Velvet Brew Café</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<nav>
+
+<div class="logo">
+Velvet Brew Cafe
+</div>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#menu">Menu</a></li>
+
+<li><a href="#booking">Book Table</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+<section id="home" class="hero">
+
+<h1>Fresh Coffee & Sweet Moments</h1>
+
+<p>
+Premium coffee, desserts and unforgettable experiences.
+</p>
+
+<a href="#menu" class="btn">
+View Menu
+</a>
+
+</section>
+
+<section id="about">
+
+<h2>About Us</h2>
+
+<p>
+Welcome to Velvet Brew Café. We serve handcrafted coffee,
+bubble teas, milkshakes, desserts and delicious snacks.
+</p>
+
+</section>
+
+<section id="menu">
+
+<h2>Popular Menu</h2>
+
+<div class="menu-container">
+
+<div class="card">
+
+<img src="images/coffee.jpg">
+
+<h3>Cappuccino</h3>
+
+<p>₹180</p>
+
+<button onclick="buyItem('Cappuccino')">
+Buy Now
+</button>
+
+</div>
+
+<div class="card">
+
+<img src="images/bubbletea.jpg">
+
+<h3>Bubble Tea</h3>
+
+<p>₹220</p>
+
+<button onclick="buyItem('Bubble Tea')">
+Buy Now
+</button>
+
+</div>
+
+<div class="card">
+
+<img src="images/milkshake.jpg">
+
+<h3>Milkshake</h3>
+
+<p>₹240</p>
+
+<button onclick="buyItem('Milkshake')">
+Buy Now
+</button>
+
+</div>
+
+<div class="card">
+
+<img src="images/cake.jpg">
+
+<h3>Chocolate Cake</h3>
+
+<p>₹250</p>
+
+<button onclick="buyItem('Chocolate Cake')">
+Buy Now
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="booking">
+
+<h2>Book A Table</h2>
+
+<form id="bookingForm">
+
+<input type="text" placeholder="Name" required>
+
+<input type="email" placeholder="Email" required>
+
+<input type="date" required>
+
+<input type="time" required>
+
+<input type="number" placeholder="Guests" required>
+
+<button type="submit">
+Reserve
+</button>
+
+</form>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<form id="contactForm">
+
+<input type="text" placeholder="Name" required>
+
+<input type="email" placeholder="Email" required>
+
+<textarea placeholder="Message"></textarea>
+
+<button type="submit">
+Send Message
+</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<p>
+© 2025 Velvet Brew Café
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
